@@ -1,0 +1,31 @@
+#ersal-payam-firspage-id{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 3rem;
+    width: calc(100% - 6rem);
+    background-color: bisque;
+    margin: 4rem 0;
+}
+#tasavir-ersl-payam-firts-page{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+.ersal-paam-class , .insta-ersal-paam-class , .goshi-ersal-paam-class{
+    width: 50%;
+}
+.insta-ersal-paam-class img , .goshi-ersal-paam-class img{
+    width: 100%;
+}
+.child-ersal-payam-firspage{
+    margin: 0 2rem;
+}
+
+@media (max-width:1024px) {
+    #ersal-payam-firspage-id{
+        flex-direction: column-reverse;
+        margin-top: 9rem;
+    }
+}

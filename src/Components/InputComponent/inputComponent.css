@@ -1,0 +1,12 @@
+#input-component-id{
+    background-color: #FFFFFF;
+    border-radius: 0.9rem;
+    color: #d4caca;
+    outline: none;
+    border: none;
+    width: 18rem;
+    height: 2rem;
+    text-align: right;
+    padding: 0.4rem;
+    font-size: medium;
+}

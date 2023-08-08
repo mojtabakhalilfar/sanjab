@@ -1,0 +1,28 @@
+#omdeforoshi{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin: 2rem 0;
+}
+#link-omdeforoshi{
+    text-align: center;
+    width: 100%;
+    padding: 1rem 4rem;
+    background-color: #53125d;
+    font-size: large;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 20px;
+}
+#link-omdeforoshi:hover{
+    background-color: #e26c05; 
+}
+
+@media (max-width:768px){
+    #link-omdeforoshi{
+        padding: 0.3rem 0.5rem;
+        font-size: small;
+
+    } 
+}

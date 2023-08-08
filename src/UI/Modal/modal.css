@@ -1,0 +1,12 @@
+.modal-class{
+    position: fixed;
+    width: 60%;
+    /* height: 50%; */
+    left: 20%;
+    top: 20%;
+    z-index: 300;
+}
+.login-modal-class{
+    width: 100%;
+    height: 100%;
+}

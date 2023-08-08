@@ -1,0 +1,65 @@
+.classProductInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'vazirmatn';
+    background-color: #f5e9b6;
+    text-align: center;
+    overflow: hidden;
+}
+#img-product-info{
+    width: 70vw;
+    height: 70vh;
+}
+
+.classProductInfo div{
+    width: 80%;    
+}
+
+.classProductInfo p{
+    text-align: center;
+    line-height: 2rem;
+}
+#add-sub-sabad{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 20%;
+    margin-bottom: 4rem;
+}
+
+#add-sub-sabad button{
+    outline: none;
+    background-color: #2918c2;
+    color: #3898f3;
+    border: 2px solid #2918c2;
+    padding: 1rem 2rem;
+    border-radius: 5%;
+}
+#sub-sabad:hover{
+    background-color: #3898f3;
+    color: #2918c2;
+    border: 2px solid #3898f3
+}
+#add-sabad:hover{
+    background-color: #3898f3;
+    color: #2918c2;
+    border: 2px solid #3898f3
+}
+#add-sub-sabad div{
+    display: flex;
+    justify-content: center;
+}
+#counte-sabad1{
+    padding: 1rem 2rem;
+    width: 2rem;
+    height: 1rem;
+}
+@media (max-width:768px){
+    #img-product-info{
+        width: 50%;
+        height: 50%;
+    }
+}

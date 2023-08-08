@@ -1,0 +1,18 @@
+#dokme-id{
+    background-color: #f77f1d;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    border-bottom-left-radius: 25%;
+    display: inline;
+    font-size: large;
+}
+
+@media(max-width:768px){
+    #dokme-id{
+        color: #ffffff;
+        padding: 0.25rem 0.5rem;
+
+        font-size: small;
+    }
+}

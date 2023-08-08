@@ -1,0 +1,60 @@
+#product-in-box{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 9rem;
+    padding: 0.2rem 1rem;
+    width: 100%;
+    overflow: hidden;
+}
+#info-product-in-box{
+    height: 100%;
+    width: 40%;
+}
+#img-product-in-box{
+    width: 50%;
+    height: 50%;
+}
+#img-product-in-box img{
+    width: 80%;
+    height: 80%;
+}
+#tedad-product-in-box{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+}
+#button-product-in-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+}
+#button-product-in-box input{
+    width: 20%;
+    border-left: 0.5px solid #cecac2;
+    border-right: 0.5px solid #cecac2;
+    
+}
+.buttons-button-product-in-box{
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    padding: 0.5rem 0.5rem;
+}
+
+#delete-from-buylist{
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.buttonSabad{
+    border: none;
+    background-color: inherit;
+}
+#add-sub-boxsabad{
+    display: flex;
+    flex-direction: column;
+    padding-right: 1rem;
+}

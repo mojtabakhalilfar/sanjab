@@ -1,0 +1,26 @@
+#tamas-ba-ma{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+}
+#child1-tamas-ba-ma span{
+    font-size: medium;
+}
+
+#child2-tamas-ba-ma{
+    margin: 2rem 0;
+    
+}
+#child1-tamas-ba-ma-link{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 1rem 6rem;
+    background-color: orangered;
+    border-radius: 8px;
+}
+#child3-tamas-ba-ma{
+    width: 70%;
+    word-wrap: break-word;
+    text-align:justify;
+}

@@ -1,0 +1,121 @@
+footer{
+    background-color: #e5b152;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top:10px solid #ffa600 ;
+    height: 85vh;
+    font-family: 'Vazirmatn';
+    color: gray;
+}
+footer span{
+    font-family: 'Vazirmatn';
+}
+.section-class{
+    margin-bottom: 0.4rem;
+    font-size: small;
+}
+.link-footer-class{
+    text-decoration: none;
+    color: gray;
+    font-size: small;
+    font-family: 'Vazirmatn';
+}
+#sectin1-id{
+    display: flex;
+    align-items: center;
+    font-size: large;
+    margin-top: 2rem;
+}
+
+#sectin2-id {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.section2-class{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    font-size: smaller;
+}
+
+.div-section1-class{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    text-decoration: none;
+}
+#sectin3-id{
+    width: 60%;
+    text-align: right;
+}
+#sectin3-id p{
+    word-wrap: break-word;
+    text-align: center;
+}
+
+#sectin4-id{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.child-sectin4-class{
+    margin: 0 1.5rem;
+}
+#sectin5-id{
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+    padding-bottom: 1rem;
+}
+
+@media (max-width:1028px) {
+    footer{
+        height: calc(100% + 10rem);
+        text-align: center;
+    }
+    #sectin2-id{
+        flex-direction: column-reverse;
+    }
+    .section2-class{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .div-section1-class span{
+        width: 100%;
+        text-align: center;
+    }
+    .link-footer-class{
+        margin: 4px 0;
+        text-align: center;
+        width: 100;
+    }
+    .child-sectin4-class img{
+        width: 50%;
+        height: 50%;
+    }
+    #sectin3-id {
+        text-align: center;
+    }
+    #sectin5-id{
+        width: 50%;
+    }
+}
+
+@media (min-width:768px) and (max-width:1208px){
+    #sectin2-id {
+        width: 85%;
+    }
+}
+
+

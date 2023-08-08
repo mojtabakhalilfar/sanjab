@@ -1,0 +1,23 @@
+
+.div-product-id{
+    width: 10rem;
+  overflow: hidden;
+
+}
+
+.porforoshha-class{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+}
+@media (max-width:1024px) {
+    .div-product-id{
+        width: 11rem;
+        padding: 0;
+        margin: 0;
+    }
+    .porforoshha-class{
+        display: flex;
+        flex-direction: column;
+    }
+}

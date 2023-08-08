@@ -1,0 +1,12 @@
+main{
+    background-color: #f1eae0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+#layout-id{
+    display: flex;
+    flex-direction: column;
+    
+}

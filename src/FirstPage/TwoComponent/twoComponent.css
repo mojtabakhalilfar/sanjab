@@ -1,0 +1,11 @@
+#two-component-id{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 0 0 0;
+    width: 90%;
+}
+.cadr-info-class{
+    margin: 0 1rem;
+}

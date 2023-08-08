@@ -1,0 +1,10 @@
+.shop-class{
+    padding:2rem;
+    width: calc(100% - 4rem);
+}
+@media (max-width:1024px) {
+    .shop-class{
+        padding: 1rem;
+        width: calc(100% - 2rem);
+    }
+}

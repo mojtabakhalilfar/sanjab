@@ -1,0 +1,70 @@
+#page-log-id{
+    width: 100%;
+    background-color: #ffffff;
+    border: 0.3px solid #999595;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#button-page-log-id{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+}
+#button-page-log-id button{
+    width: 50%;
+    height: 100%;
+    /* background-color: #c9bbbb; */
+    outline: none;
+    border: none;
+}
+#main-page-log-id{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.form-log{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem 1rem;
+}
+.input-form{
+    height: 3rem;
+    margin-top: 2%;
+    /* background-color: #ffffff;  */
+}
+.input-form-log-input{
+    width: calc(80% - 1rem);
+    text-align: right;
+    padding-right: 1rem;
+    border: 0.3px solid #999595;
+}
+.input-sub-log{
+    width: 80%;
+    text-align: center;
+    background-color: #3d3de2;
+    color: #ffffff;
+    border: 0.3px solid #3d3de2;
+
+}
+.button-class-clicked{
+    background-color: #ffffff;
+}
+.button-class-no-clicked{
+    background-color: #c9bbbb;
+}
+
+@media (max-width:1024px) {
+    #button-page-log-id{
+        height: 5vh;
+    }
+    .input-form{
+        height: 1.5rem;
+    }
+}

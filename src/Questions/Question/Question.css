@@ -1,0 +1,23 @@
+#question-page-id{
+    background-color: #ffffff;
+    width: 100%;
+    margin: 0;
+
+}
+#question-id{
+    width: calc(100vw - 10rem);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: large;
+    padding:0.5rem;
+    text-align: right;
+    width: 100%;
+}
+#answer-id{
+    text-align: right;
+    /* padding: 1rem; */
+}
+
+

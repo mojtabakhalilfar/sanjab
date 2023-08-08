@@ -1,0 +1,32 @@
+.takhfif-class{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#img-takhfif{
+    height: 90vh;
+    width: 45vw;
+    display: flex;
+    justify-content: flex-end;
+}
+#img-takhfif img{
+    height: 100%;
+    width: 90%;
+}
+#text-takhfif{
+    width: 45vw;
+    text-align: justify;
+    word-wrap: break-word;
+}
+
+@media (max-width:1024px) {
+    .takhfif-class{
+        flex-direction: column;
+    }
+    #img-takhfif{
+        width: 90vw;
+    }
+    #text-takhfif{
+        width: 80vw;
+    }
+}

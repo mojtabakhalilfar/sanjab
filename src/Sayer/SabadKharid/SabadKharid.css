@@ -1,0 +1,100 @@
+#sabad-kharid-id{
+    width: 30%;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    background-color: #f1eae0;
+    z-index: 300;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#sabad-id{
+    width: 100%;
+    display: inline-block;
+}
+.IoCloseSharp-class{
+    width: 300%;
+    height: 300%;
+    color: #ffffff;
+}
+#header-sabad-id button{
+    border: none;
+    background-color: inherit;
+}
+#header-sabad-id{
+    height: 13%;
+    padding-right: 30%;
+    padding-left: 3%;
+    width: 67%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: #ffffff;
+}
+#list-of-product-sabad-id{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    height: 60%;
+    overflow-x: auto;
+    width: 80%;
+    margin: 5% 10%;
+    /* background-color: #ad1212; */
+}
+#hazine-nahayi-sabad-id{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    width: 70%;
+    font-size: large;
+    height: 10%;
+    border-bottom: 1px solid #9b8b8b;
+}
+#last-child-sabad-id{
+    display: flex;
+    width: 100%;
+    height: 7%;
+    align-items: center;
+    justify-content: center;
+    margin: 3% 0;
+}
+.div-last-child-sabad-class{
+    width: 40%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.link-class{
+    text-decoration: none;
+    color: #000000;
+    padding: 1rem 0;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 0.2rem;
+    font-size: small;
+    color: #ffffff;
+}
+.moshahede-sabad{
+    background-color: green;
+}
+
+.tasvie-saabd{
+    background-color: #000000;
+    
+}
+
+
+@media (max-width:1024px) {
+    #sabad-kharid-id{
+        width: 70%;
+
+    }
+    .link-class{
+        margin-bottom: 10%;
+    }
+}

@@ -1,0 +1,64 @@
+#header-first-page{
+    background-color: #eb9e46;
+    background-image: url('../../assest/imgHeader.png');
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 46.8vh;
+}
+.header-in-firstpage{
+    height: 10%;
+}
+#child2-header-first-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 8rem;
+    color: #ffffff;
+}
+#div-takhfif-id{
+    padding-right: 4rem;
+}
+#div-takhfif-id img{
+    width: 16rem;
+    height: 17rem;
+}
+#div-logo-post-id{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5rem;
+}
+#div-logo-id{
+    display: flex;
+    justify-content: flex-start;
+}
+#div-post-id{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#div-post-id span{
+    font-size: medium;
+    text-align: right;
+}
+
+
+@media (max-width:768px) {
+    #header-first-page{
+        height: 100vh;
+        margin-bottom: 5rem;
+    }
+    #child2-header-first-page{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #div-post-id{
+        flex-direction: column;
+    }
+    #div-post-id span{
+        text-align: center;
+        font-size: small;
+    }
+}
