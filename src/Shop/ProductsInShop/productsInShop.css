@@ -10,8 +10,9 @@
 
 @media (max-width: 1024px) {
   #products-in-shop-id {
-    width: 90%;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    padding:2rem 0.5rem;
+    
+    width: 60%;
+    grid-template-columns: repeat(2, minmax(90px, 1fr));
+    padding:2rem 0;
   }
 }
