@@ -1,4 +1,3 @@
-import React from 'react'
 import './porforooshHa.css'
 import Products from '../../Components/Products/Products'
 import ProductCard from '../../Components/ProductCard/ProductCard'

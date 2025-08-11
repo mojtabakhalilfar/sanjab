@@ -1,10 +1,8 @@
-import React from 'react'
 import './moarfi.css'
-// import Dokme from '../Dokme/Dokme'
 
 const Moarfi = (props) => {
   return (
-    <div id='moarfi-id' style={props.style}>
+    <div id='moarfi-id'  style={props.style}>
         <div id='img-moarfi-id'>
             <img src={props.src} alt={props.alt}/>
         </div>

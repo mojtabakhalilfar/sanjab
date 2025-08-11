@@ -1,4 +1,3 @@
-import React from 'react'
 import './slider.css'
 import products from '../../products'
 import {FiChevronRight , FiChevronLeft} from "react-icons/fi"

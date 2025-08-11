@@ -1,12 +1,17 @@
-#products-in-shop-id{
-    width: 70%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    text-align: end;
+#products-in-shop-id {
+  padding: 3rem;
+  width: 70%;
+  margin: 0 auto; /* وسط چین کردن */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap:0 1rem;
+  padding:4rem 1rem;
 }
-@media (max-width:1024px) {
 
+@media (max-width: 1024px) {
+  #products-in-shop-id {
+    width: 90%;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    padding:2rem 0.5rem;
+  }
 }

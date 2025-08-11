@@ -34,14 +34,10 @@
     color: #ffffff;
 }
 #list-of-product-sabad-id{
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
     height: 60%;
     overflow-x: auto;
     width: 80%;
     margin: 5% 10%;
-    /* background-color: #ad1212; */
 }
 #hazine-nahayi-sabad-id{
     display: flex;

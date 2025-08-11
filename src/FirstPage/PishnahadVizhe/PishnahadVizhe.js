@@ -1,4 +1,3 @@
-import React from 'react'
 import './pishnahadVizhe.css'
 import Products from '../../Components/Products/Products'
 import ProductCard from '../../Components/ProductCard/ProductCard'
@@ -12,7 +11,7 @@ const PishnahadVizhe = () => {
                 className='product-card-class'
                 src={require('../../assest/kasegerdo.png')}
                 title='مغز گردو'
-                price='370000'
+                price={370000}
             />
         </div>)
         

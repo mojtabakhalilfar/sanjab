@@ -15,10 +15,8 @@
     align-items: center;
     justify-content: flex-end;
     height: 10rem;  
-    /* margin-bottom: 5rem; */
 }
 #products-porforooshtarin{
-    /* overflow-y: hidden; */
     width: calc(100% + 5rem);
     display: flex;
     align-items: center;

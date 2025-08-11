@@ -5,7 +5,6 @@
     align-items: center;
 }
 #body-slider2{
-    /* width: 80%; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +13,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* width: 80%; */
 }
 #img-body-slider2 img{
     border-radius: 5%;

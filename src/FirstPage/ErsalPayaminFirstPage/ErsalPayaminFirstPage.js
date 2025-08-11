@@ -1,4 +1,3 @@
-import React from 'react'
 import './ersalPayaminFirstPage.css'
 import ErsalPayam from '../../Components/ErsalPayam/ErsalPayam'
 import { Link } from 'react-router-dom'

@@ -1,4 +1,3 @@
-import React from 'react'
 import Layout from '../Components/Layout/Layout'
 import ProductsInShop from './ProductsInShop/ProductsInShop'
 import './shop.css'

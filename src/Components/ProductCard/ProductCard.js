@@ -1,4 +1,3 @@
-import React from 'react'
 import './productCard.css'
 import { Link } from 'react-router-dom'
 
@@ -8,11 +7,10 @@ const ProductCard = (props) => {
         <div id='img-product-card-id'>
             <img src={props.src} alt={props.alt} />
         </div>
-        <div id='info-product-card-id'>
+        <div dir='rtl' id='info-product-card-id'>
             <span>{props.title}</span>
-            <span>ریال{props.price}</span>
+            <span >{(props.price).toLocaleString('fa')} ریال</span>
         </div>
-        
     </Link>
   )
 }

@@ -1,4 +1,3 @@
-import React from 'react'
 import './takhfif.css'
 import Layout from '../../Components/Layout/Layout'
 

@@ -27,16 +27,3 @@ export const ADDMAQZ7 = 'ADDMAQZ7'
 export const SUBMAQZ7 = 'SUBMAQZ7'
 export const ADDMAQZ8 = 'ADDMAQZ8'
 export const SUBMAQZ8 = 'SUBMAQZ8'
-
-
-
-// shopingCart:{
-//     maqz1:0,
-//     maqz2:0,
-//     maqz3:0,
-//     maqz4:0,
-//     maqz5:0,
-//     maqz6:0,
-//     maqz7:0,
-//     maqz8:0,
-//   },

@@ -1,4 +1,3 @@
-import React from 'react'
 import Dokme from '../Dokme/Dokme'
 import './products.css'
 

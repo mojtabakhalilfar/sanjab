@@ -1,4 +1,3 @@
-import React from 'react'
 import './ersalPayam.css'
 import InputComponent from '../InputComponent/InputComponent'
 

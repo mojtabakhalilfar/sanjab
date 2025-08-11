@@ -1,4 +1,3 @@
-import React from 'react'
 import Moarfi from '../../Components/Moarfi/Moarfi'
 
 const MasrafGhazayi = () => {

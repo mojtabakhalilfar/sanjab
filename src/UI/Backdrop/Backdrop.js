@@ -1,4 +1,3 @@
-import React from 'react'
 import './backdrop.css'
 import { useSelector , useDispatch } from 'react-redux'
 import * as actionTypes from '../../store/actions'

@@ -1,4 +1,3 @@
-import React from 'react'
 import './SabadKharid.css'
 import { useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'

@@ -1,5 +1,4 @@
 import * as actionTypes from "./actions"
-// import products from "../products";
 import ProductInfo from "../Components/ProductInfo/ProductInfo";
 
 const inistialState={
@@ -158,63 +157,3 @@ const reducer = (state=inistialState, action) => {
 
 export default reducer
 
-
-
-    //7 indexSlider:{
-    //   indexSlider1:0,
-    //   indexSlider2:1,
-    //   indexSlider3:2
-    // },
-
-   // case actionTypes.INCREMENTINDEX:
-    //     if ((indexSlider.indexSlider1 === maxIndex ) || (indexSlider.indexSlider2) === maxIndex || (indexSlider.indexSlider3 === maxIndex)){
-    //         if (indexSlider.indexSlider1 === maxIndex){
-    //             movqatIS.indexSlider1=0
-    //             movqatIS.indexSlider2 += 1
-    //             movqatIS.indexSlider3 += 1
-    //             return {...state , indexSlider:movqatIS}
-    //         }else if (indexSlider.indexSlider2 === maxIndex){
-    //             movqatIS.indexSlider2=0
-    //             movqatIS.indexSlider1 += 1
-    //             movqatIS.indexSlider3 += 1
-    //             return {...state , indexSlider:movqatIS}
-    //         }else if (indexSlider.indexSlider3 === maxIndex){
-    //             movqatIS.indexSlider3=0
-    //             movqatIS.indexSlider2 += 1
-    //             movqatIS.indexSlider1 += 1
-    //             return {...state , indexSlider:movqatIS}
-    //         }
-    //     }else{
-    //         movqatIS.indexSlider1 += 1
-    //         movqatIS.indexSlider2 += 1
-    //         movqatIS.indexSlider3 += 1
-    //         return {...state , indexSlider:movqatIS}
-    //     }
-    
-    //     break
-    // case actionTypes.DECREMENTINDEX:
-    //       if ((indexSlider.indexSlider1 === 0 ) || (indexSlider.indexSlider2) === 0 || (indexSlider.indexSlider3 === 0)){
-    //           if (indexSlider.indexSlider1 === 0){
-    //               movqatIS.indexSlider1=maxIndex
-    //               movqatIS.indexSlider2 -= 1
-    //               movqatIS.indexSlider3 -= 1
-    //               return {...state , indexSlider:movqatIS}
-    //           }else if (indexSlider.indexSlider2 === 0){
-    //               movqatIS.indexSlider2=maxIndex
-    //               movqatIS.indexSlider1 -= 1
-    //               movqatIS.indexSlider3 -= 1
-    //               return {...state , indexSlider:movqatIS}
-    //           }else if (indexSlider.indexSlider3 === 0){
-    //               movqatIS.indexSlider3=maxIndex
-    //               movqatIS.indexSlider2 -= 1
-    //               movqatIS.indexSlider1 -= 1
-    //               return {...state , indexSlider:movqatIS}
-    //           }
-    //       }else{
-    //           movqatIS.indexSlider1 -= 1
-    //           movqatIS.indexSlider2 -= 1
-    //           movqatIS.indexSlider3 -= 1
-    //           return {...state , indexSlider:movqatIS}
-    //       }
-      
-    //       break

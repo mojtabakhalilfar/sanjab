@@ -1,4 +1,3 @@
-import React from 'react'
 import Layout from '../Components/Layout/Layout'
 import ErsalPayaminFirstPage from '../FirstPage/ErsalPayaminFirstPage/ErsalPayaminFirstPage'
 import Tamasbama from './Tamasbama/Tamasbama'

@@ -1,4 +1,3 @@
-import React from 'react'
 import './twoComponent.css'
 import CadrInfo from '../../Components/CadrInfo/CadrInfo'
 

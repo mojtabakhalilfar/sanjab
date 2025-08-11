@@ -1,4 +1,3 @@
-import React from 'react'
 import './ProductInBox.css'
 import { useDispatch ,useSelector } from 'react-redux'
 import sayer from '../../../sayer'
@@ -83,8 +82,7 @@ const ProductInBox = (props) => {
                     </div>
                 </div>
                 <div id='price-product-in-box'>
-                    <span dir='rtl'>{`${props.price} تومان `}</span>
-                    
+                    <span dir='rtl'>{`${(props.price).toLocaleString('fa')} تومان `}</span>  
                 </div>
             </div>
         </div>

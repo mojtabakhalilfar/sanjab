@@ -9,8 +9,8 @@
     overflow: hidden;
 }
 #img-product-info{
-    width: 70vw;
-    height: 70vh;
+    width: auto;
+    height: auto;
 }
 
 .classProductInfo div{
@@ -32,21 +32,16 @@
 
 #add-sub-sabad button{
     outline: none;
-    background-color: #2918c2;
-    color: #3898f3;
-    border: 2px solid #2918c2;
+    background-color: #e0fe65;
+    color: #ff7b00df;
+    border: 2px solid #e0fe65;
     padding: 1rem 2rem;
     border-radius: 5%;
 }
-#sub-sabad:hover{
-    background-color: #3898f3;
+#add-sub-sabad button:hover{
+    background-color: #cede8d;
     color: #2918c2;
-    border: 2px solid #3898f3
-}
-#add-sabad:hover{
-    background-color: #3898f3;
-    color: #2918c2;
-    border: 2px solid #3898f3
+    border: 2px solid #cede8d
 }
 #add-sub-sabad div{
     display: flex;

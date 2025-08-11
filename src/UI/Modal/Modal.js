@@ -1,4 +1,3 @@
-import React from 'react'
 import './modal.css'
 import { useSelector} from 'react-redux'
 import Backdrop from '../Backdrop/Backdrop'

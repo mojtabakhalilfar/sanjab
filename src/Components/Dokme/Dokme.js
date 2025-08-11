@@ -1,4 +1,3 @@
-import React from 'react'
 import './dokme.css'
 
 const Dokme = (props) => {

@@ -2,13 +2,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* width: 90%; */
     padding: 3rem 0;
 }
-/* .imgSlider{
-    width: 30%;
-    height: 30%;
-} */
+
 .dokme-slider{
     display: flex;
     align-items: center;
@@ -23,8 +19,6 @@
 #main-slider-id{
     display: flex;
     flex-direction: row-reverse;
-    /* align-items: center; */
-    /* justify-content: center; */
     margin: 0;
 }
 #main-slider-id img{

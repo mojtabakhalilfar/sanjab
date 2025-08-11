@@ -4,8 +4,6 @@
     justify-content: center;
     width: 72%;
     margin: 3rem 0;
-    position: relative;
-    left: 2rem;
 }
 #img-moarfi-id{
     width: 30%;
@@ -25,15 +23,12 @@
     height: 27rem;
     padding: 0 3rem;
     word-wrap: break-word;
-    /* font-family: 'vazirmatn'; */
 }
 
 #text-moarfi-id p{
     width: auto ;
     word-wrap: break-word;
     line-height:2rem;
-    /* word-spacing: 0.2rem; */
-    /* text-indent: 1rem; */
     font-size: medium;
     margin-top: 0;
     text-align: justify;
@@ -51,23 +46,22 @@
 @media (max-width:768px){
     #moarfi-id{
         flex-direction: column-reverse;
+        justify-content: center;
         height: 100%;
         margin: 0;   
-        width: calc(100%-6rem);
+        width: auto;
+        max-width: 100%;
         overflow: hidden;
     }
     #text-moarfi-id{
-        width: 100%;
+        width: 80%;
         text-align: center;
-        /* padding: 0 3rem; */
         word-wrap: break-word;
-        /* margin-bottom: 4rem; */
         height: auto;
     }
     #img-moarfi-id img{
         width: 20rem;
         height: 30rem;
-        /* margin-right: 3rem; */
     }
     #img-moarfi-id {
         margin-top: 5px;
@@ -75,17 +69,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-right: 3rem;
     }
     #text-moarfi-id p{
         font-size: medium;
-        padding-right: 3rem;
-        /* background-color: aqua; */
-
     }
     #text-moarfi-id h3{
         font-size: large;
-        padding-right: 3rem;
     }
 }
 
